@@ -1,9 +1,14 @@
+#include "lua\test.hpp"
 
 #include <iostream>
-
+#include <Windows.h>
 
 int main()
 {
-	printf("hello pidor\n");
+	CTest t;
+	printf("hello\n");
+
+	t.test();
+	system("pause");
 	return 0;
 }
